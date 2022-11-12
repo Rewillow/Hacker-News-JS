@@ -25,7 +25,7 @@ Inoltre, dato l'enorme quantitativo di notizie presenti, l'applicazione dovrà c
    <li> <strong>CSS</strong>: per l'implementazione degli stili grafici. Per una migliore gestione degli stili, è stato utilizzato <strong>SASS</strong>, un'estensione      del linguaggio CSS che permette di utilizzare variabili, di creare funzioni e di organizzare il foglio di stile in più file. </li>
    <li> <strong>JavaScript</strong>: per rendere dinamica l'applicazione attraverso gli script. </li>
    </ul>
-<p> É possibile testarla cliccando sul seguente <a href="https://rewillow.github.io/Hacker-News-JS/index.html">link</a>. </p>
+<p> É possibile testarla cliccando sul seguente <a href="https://rewillow.github.io/Hacker-News-JS/">link</a>. </p>
 
 ## Screenshoot
 
