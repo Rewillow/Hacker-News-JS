@@ -1,7 +1,9 @@
 
 const url = "https://hacker-news.firebaseio.com/v0/newstories.json" // Creo la variabile contenente l'URL dalla quale estrapolare i dati 
+
 const allNews = document.querySelector('.news-avaible') // Creo la variabile che raccoglierà tutte le notizie
 const loadNews = document.getElementById('load-button') // Creo la variabile che caricherà le altre 10 notizie
+
 
 
 
@@ -52,7 +54,7 @@ function createElement(arr, listNews) { // Creo la funzione che raccoglie i dati
       } 
       
 
-      getData() // Mando a schermo la funzione asincrona principale
+      getData() // Mando a schermo la funzione asincrona principale, così da ottenere il risultato richiesto
     
 
 
