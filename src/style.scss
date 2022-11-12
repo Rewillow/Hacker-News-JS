@@ -32,7 +32,7 @@ img{height: auto;}
         align-items: center;
         justify-content: center;
         margin-top: 20px;
-        font-size: 3rem;
+        font-size: 2.8rem;
         color: rgb(255, 255, 255);
     }
 
@@ -46,7 +46,7 @@ img{height: auto;}
     }
 }
 
-.box {
+.news-avaible {
     margin-left: auto;
     margin-right: auto;
     margin-top: 35px;
@@ -65,15 +65,11 @@ img{height: auto;}
         margin-bottom: 5px;
         }
 
-        :link {
-            color: $text-color;
-            text-decoration: none;
-        }
-
         p {
             text-align: center;
             margin-bottom: 10px;
         }
+       
     }
 
     .news-time {
@@ -82,8 +78,9 @@ img{height: auto;}
         margin-bottom: 10px;
     }
 
-    .alr {
-        color: white;
+    :link {
+        color: $text-color;
+        text-decoration: none;
     }
 }
 
