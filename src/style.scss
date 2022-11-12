@@ -72,12 +72,19 @@ img{height: auto;}
         color: $text-color;
         margin-top: 10px;
         margin-bottom: 5px;
+        
+        :hover {
+            font-size: 1.3rem;
+        }
+        
         }
 
         p {
             text-align: center;
             margin-bottom: 10px;
         }
+
+        
        
     }
 
@@ -86,6 +93,8 @@ img{height: auto;}
         color: $par-color;
         margin-bottom: 10px;
     }
+
+   
 
 }
 
