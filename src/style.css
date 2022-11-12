@@ -84,12 +84,12 @@ img {
   text-decoration: none;
 }
 
-.container {
+.box-load {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.container button {
+.box-load button {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif, sans-serif;
   margin-bottom: 20px;
   border: 2px solid red;
