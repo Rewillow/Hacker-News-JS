@@ -29,7 +29,7 @@ Inoltre, dato l'enorme quantitativo di notizie presenti, l'applicazione dovrà c
 
 ## Screenshoot
 
-<img src="https://github.com/Rewillow/Hacker-News-JS/blob/main/img/Screen1.png?raw=true" width="800px" height="auto">
+<img src="https://github.com/Rewillow/Hacker-News-JS/blob/master/img/Hacker2.jpg?raw=true" width="800px" height="auto">
 
 ## Autori
 <ul>
