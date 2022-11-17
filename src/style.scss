@@ -4,26 +4,28 @@ $text-color: white;
 $par-color: rgb(179, 161, 161);
 
 
-body, html{ font-size: 16px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif; box-sizing: border-box;margin: 0;padding: 0;}
+body, html{background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 60%, rgba(62,60,60,1) 100%); font-size: 16px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif; box-sizing: border-box;margin: 0;padding: 0;}
 *,*:before,*:after{ box-sizing: border-box; }
 h1,h2,h3,h4,h5,h6, p, ol, ul{margin: 0;padding: 0;}
 ol,ul{list-style-type: none;}
 img{height: auto;}
 
 
-.hacker-image {
-    background-size: cover;
-    isolation: isolate;
+// .hacker-image {
+//     background-size: cover;
+//     isolation: isolate;
+   
 
-    .hacker-image::after {
-        content: "";
-        position: absolute;
-        background: black;
-        inset: 0;
-        z-index: -1;
-        opacity: 0.1;
-    }
-}
+//     // .hacker-image::after {
+//     //     content: "";
+//     //     position: absolute;
+//     //     background: black;
+//     //     inset: 0;
+//     //     z-index: -1;
+//     //     opacity: 0.1;
+//     // }
+// }
 
 .hacker-news {
 
@@ -74,7 +76,7 @@ img{height: auto;}
         margin-bottom: 5px;
         
         :hover {
-            font-size: 1.3rem;
+            color: red
         }
         }
 
@@ -82,9 +84,6 @@ img{height: auto;}
             text-align: center;
             margin-bottom: 10px;
         }
-
-        
-       
     }
 
     .news-time {
@@ -92,9 +91,6 @@ img{height: auto;}
         color: $par-color;
         margin-bottom: 10px;
     }
-
-   
-
 }
 
 
@@ -109,10 +105,18 @@ img{height: auto;}
         border: 2px solid $h2-color;
         width: 800px;
         padding: 10px 23px;
-        font-size: 1.2rem;
-        background: $background-color;
-        color: $text-color;
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: white;
+        background: rgb(124,16,16);
+        background: radial-gradient(circle, rgba(124,16,16,1) 30%, rgba(0,0,0,1) 100%);
         cursor: pointer;
+
     }
+
+    // :hover {
+    //     background: rgb(2,0,36);
+    //     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    // }
 }
 

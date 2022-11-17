@@ -1,4 +1,6 @@
 body, html {
+  background: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgb(0, 0, 0) 60%, rgb(62, 60, 60) 100%);
   font-size: 16px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif, sans-serif;
   box-sizing: border-box;
@@ -21,19 +23,6 @@ ol, ul {
 
 img {
   height: auto;
-}
-
-.hacker-image {
-  background-size: cover;
-  isolation: isolate;
-}
-.hacker-image .hacker-image::after {
-  content: "";
-  position: absolute;
-  background: black;
-  inset: 0;
-  z-index: -1;
-  opacity: 0.1;
 }
 
 .hacker-news h1 {
@@ -78,7 +67,7 @@ img {
   margin-bottom: 5px;
 }
 .news-avaible .news h3 :hover {
-  font-size: 1.3rem;
+  color: red;
 }
 .news-avaible .news p {
   text-align: center;
@@ -101,8 +90,10 @@ img {
   border: 2px solid red;
   width: 800px;
   padding: 10px 23px;
-  font-size: 1.2rem;
-  background: black;
+  font-size: 1.1rem;
+  font-weight: bold;
   color: white;
+  background: rgb(124, 16, 16);
+  background: radial-gradient(circle, rgb(124, 16, 16) 30%, rgb(0, 0, 0) 100%);
   cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

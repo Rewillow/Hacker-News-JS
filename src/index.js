@@ -34,8 +34,8 @@ function createElement(arr, listNews) { // Creo la funzione che raccoglie i dati
                                   </a> 
                                  <div>`)
       })
-    })) .catch ((error) => { // In questo caso "catch" è fondamentale per raccogliere gli eventuali errori, che verranno mostrati nella console del browser
-        console.log(error)
+    })) .catch ((error) => { // In questo caso "catch" è fondamentale per raccogliere gli eventuali errori, che verranno mostrati sottoforma di alert
+        alert(error)
     })
     }
 
