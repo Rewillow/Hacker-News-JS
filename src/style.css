@@ -96,4 +96,20 @@ img {
   background: rgb(124, 16, 16);
   background: radial-gradient(circle, rgb(124, 16, 16) 30%, rgb(0, 0, 0) 100%);
   cursor: pointer;
+}
+
+@media all and (min-width: 370px) and (max-width: 500px) {
+  body, html {
+    background: black;
+  }
+}
+@media all and (min-width: 501px) and (max-width: 620px) {
+  body, html {
+    background: black;
+  }
+}
+@media all and (min-width: 621px) and (max-width: 820px) {
+  body, html {
+    background: black;
+  }
 }/*# sourceMappingURL=style.css.map */
